@@ -1,5 +1,5 @@
 //
-//  ToDoListItemView.swift
+//  SwiftUIView.swift
 //  ToDoList
 //
 //  Created by Felipe Lima on 09/08/23.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ToDoListItemView: View {
+struct SwiftUIView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ToDoListItemView_Previews: PreviewProvider {
+struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        ToDoListItemView()
+        SwiftUIView()
     }
 }

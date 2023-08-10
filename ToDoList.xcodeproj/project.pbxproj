@@ -20,7 +20,7 @@
 		DB73EA572A83EC4E0079C4ED /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73EA562A83EC4E0079C4ED /* NewItemView.swift */; };
 		DB73EA592A83EC670079C4ED /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73EA582A83EC670079C4ED /* LoginView.swift */; };
 		DB73EA5B2A83EC820079C4ED /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73EA5A2A83EC820079C4ED /* RegisterView.swift */; };
-		DB73EA5D2A83ECB40079C4ED /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73EA5C2A83ECB40079C4ED /* ToDoListItemView.swift */; };
+		DB73EA5D2A83ECB40079C4ED /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73EA5C2A83ECB40079C4ED /* ToDoItemView.swift */; };
 		DB73EA5F2A83ECEF0079C4ED /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73EA5E2A83ECEF0079C4ED /* User.swift */; };
 		DB73EA632A83ED3A0079C4ED /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73EA622A83ED3A0079C4ED /* ToDo.swift */; };
 		DB73EA652A83ED610079C4ED /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73EA642A83ED610079C4ED /* MainViewViewModel.swift */; };
@@ -30,6 +30,9 @@
 		DB73EA6F2A83EDB70079C4ED /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73EA6E2A83EDB70079C4ED /* LoginViewViewModel.swift */; };
 		DB73EA712A83EDD40079C4ED /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73EA702A83EDD40079C4ED /* RegisterViewViewModel.swift */; };
 		DB73EA732A83EE000079C4ED /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73EA722A83EE000079C4ED /* ToDoListItemViewViewModel.swift */; };
+		DB73EA772A84109F0079C4ED /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73EA762A84109F0079C4ED /* HeaderView.swift */; };
+		DB73EA792A84205E0079C4ED /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73EA782A84205E0079C4ED /* TLButton.swift */; };
+		DB73EA7B2A842F830079C4ED /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73EA7A2A842F830079C4ED /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +47,7 @@
 		DB73EA562A83EC4E0079C4ED /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
 		DB73EA582A83EC670079C4ED /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DB73EA5A2A83EC820079C4ED /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
-		DB73EA5C2A83ECB40079C4ED /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
+		DB73EA5C2A83ECB40079C4ED /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
 		DB73EA5E2A83ECEF0079C4ED /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DB73EA622A83ED3A0079C4ED /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		DB73EA642A83ED610079C4ED /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
@@ -54,6 +57,9 @@
 		DB73EA6E2A83EDB70079C4ED /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		DB73EA702A83EDD40079C4ED /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		DB73EA722A83EE000079C4ED /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		DB73EA762A84109F0079C4ED /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DB73EA782A84205E0079C4ED /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		DB73EA7A2A842F830079C4ED /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +121,9 @@
 				DB73EA562A83EC4E0079C4ED /* NewItemView.swift */,
 				DB73EA582A83EC670079C4ED /* LoginView.swift */,
 				DB73EA5A2A83EC820079C4ED /* RegisterView.swift */,
-				DB73EA5C2A83ECB40079C4ED /* ToDoListItemView.swift */,
+				DB73EA5C2A83ECB40079C4ED /* ToDoItemView.swift */,
+				DB73EA762A84109F0079C4ED /* HeaderView.swift */,
+				DB73EA782A84205E0079C4ED /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -125,10 +133,10 @@
 			children = (
 				DB73EA642A83ED610079C4ED /* MainViewViewModel.swift */,
 				DB73EA682A83ED840079C4ED /* ProfileViewViewModel.swift */,
-				DB73EA6A2A83ED980079C4ED /* ToDoListViewViewModel.swift */,
 				DB73EA6C2A83EDA90079C4ED /* NewItemViewViewModel.swift */,
 				DB73EA6E2A83EDB70079C4ED /* LoginViewViewModel.swift */,
 				DB73EA702A83EDD40079C4ED /* RegisterViewViewModel.swift */,
+				DB73EA6A2A83ED980079C4ED /* ToDoListViewViewModel.swift */,
 				DB73EA722A83EE000079C4ED /* ToDoListItemViewViewModel.swift */,
 			);
 			path = ViewModels;
@@ -149,6 +157,7 @@
 				DB73EA4C2A83E9820079C4ED /* GoogleService-Info.plist */,
 				DB73EA372A83E4D90079C4ED /* ToDoListApp.swift */,
 				DB73EA3B2A83E4DB0079C4ED /* Assets.xcassets */,
+				DB73EA7A2A842F830079C4ED /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -233,18 +242,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB73EA592A83EC670079C4ED /* LoginView.swift in Sources */,
+				DB73EA772A84109F0079C4ED /* HeaderView.swift in Sources */,
 				DB73EA632A83ED3A0079C4ED /* ToDo.swift in Sources */,
 				DB73EA712A83EDD40079C4ED /* RegisterViewViewModel.swift in Sources */,
 				DB73EA652A83ED610079C4ED /* MainViewViewModel.swift in Sources */,
 				DB73EA3A2A83E4D90079C4ED /* MainView.swift in Sources */,
 				DB73EA552A83EC380079C4ED /* ToDoListView.swift in Sources */,
+				DB73EA792A84205E0079C4ED /* TLButton.swift in Sources */,
 				DB73EA692A83ED840079C4ED /* ProfileViewViewModel.swift in Sources */,
 				DB73EA5B2A83EC820079C4ED /* RegisterView.swift in Sources */,
 				DB73EA532A83EC170079C4ED /* ProfileView.swift in Sources */,
 				DB73EA5F2A83ECEF0079C4ED /* User.swift in Sources */,
 				DB73EA6B2A83ED980079C4ED /* ToDoListViewViewModel.swift in Sources */,
 				DB73EA6F2A83EDB70079C4ED /* LoginViewViewModel.swift in Sources */,
-				DB73EA5D2A83ECB40079C4ED /* ToDoListItemView.swift in Sources */,
+				DB73EA5D2A83ECB40079C4ED /* ToDoItemView.swift in Sources */,
+				DB73EA7B2A842F830079C4ED /* Extensions.swift in Sources */,
 				DB73EA382A83E4D90079C4ED /* ToDoListApp.swift in Sources */,
 				DB73EA572A83EC4E0079C4ED /* NewItemView.swift in Sources */,
 				DB73EA6D2A83EDA90079C4ED /* NewItemViewViewModel.swift in Sources */,
